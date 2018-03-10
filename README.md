@@ -1,19 +1,14 @@
-# Smallex
+# GooldNeedle
 
-[Smallex](https://hex.pm/packages/smallex) is a Elixir small utilities. Here is an example:
+[GooldNeedle](https://hex.pm/packages/gold_needle) is a Various web page generator in Phoenix(Elixir Web Framework). Here is an example:
 
-```elixir
-iex> Json.get( "https://api.github.com", "/rate_limit" )[ "rate" ][ "limit" ]
-60
-
-iex> Json.post( "https://httpbin.org", "/post?param1=value1", "{ data1:value1 }" )[ "args" ]
-%{"param1" => "value1"}
-
-iex> Json.post( "https://httpbin.org", "/post?param1=value1", "{ data1:value1 }" )[ "data" ]
-"{ data1:value1 }"
+```
+# mix phx.new sample
+# cd sample
+# mix needle.sting
 ```
 
-See the [online documentation](https://hexdocs.pm/smallex).
+See the [online documentation](https://hexdocs.pm/gold_needle).
 
 ## Installation
 
@@ -22,7 +17,7 @@ Add to your ```mix.exs``` file:
 ```elixir
 def deps do
   [
-    { :smallex, "~> 0.1.1" }
+    { :gold_needle, "~> 0.0.1" }
   ]
 end
 ```

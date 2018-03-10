@@ -4,7 +4,7 @@ defmodule GoldNeedle.Mixfile do
   def project do
     [
       app: :gold_needle,
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.5",
 		description: "Various web page generator in Phoenix(Elixir Web Framework) ", 
 		package: 

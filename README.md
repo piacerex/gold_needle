@@ -16,7 +16,7 @@ Add to your ```mix.exs``` file:
 ```elixir
 def deps do
   [
-    { :gold_needle, "~> 0.0.2" }
+    { :gold_needle, "~> 0.0.3" }
   ]
 end
 ```
@@ -24,7 +24,7 @@ end
 Then Replace index.html.eex to SPA and execute Phoenix.
 
 ```
-# mix compile
+# mix deps.get
 # mix needle.sting
 * creating lib/hoge_web/templates/page/index.html.eex
 lib/hoge_web/templates/page/index.html.eex already exists, overwrite? [Yn] Y
